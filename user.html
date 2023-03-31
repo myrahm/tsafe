@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>User Home Page</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <section class="subheader">
+    <nav>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="map.html">TSAFE ROUTE</a></li>
+          <li><a href="report.html">REPORT</a></li>
+          <li><a href="login.html">LOG OUT</a></li>
+        </ul>
+      </div>
+
+    </nav>
+    <h1>Welcome Jane!</h1>
+    <h1 class="sub">Let's get you to your destination safely.</h2>
+  </section>
+
+
+  <div class="rowUser">
+
+    <div class="rowContainer">
+      <h1 class="user-name">Jane Doe</h1>
+      <img class="user-pic" src="images/woman.png" alt="User Profile Picture">
+      <p class="user-location">Toronto, ON</p>
+      <p>Age: 22</p>
+      <p>Gender: Female</p>
+      <p>Years on The Site: 1</p>
+      <h3 class="mt-4">Options</h3>
+     
+      <button class="btnUsr" onclick="window.location.href='map.html'">Map</a></button>
+      <button class="btnUsr" onclick="window.location.href='report.html'">Report</button>
+    </div>
+
+    <div class="rowContainer">
+    </div>
+
+
+    <div class="rowContainer">
+      <h2>LIVE MAP</h2>
+      <p id="date"></p>
+      <script src="script.js"></script>
+      <img src="images/map.png" class="mapImg">
+
+      <h2 class="incAndRep">Monthly Incidents and Reports</h2>
+      <h3>The monthly crime statistics:</h3>
+      <p>A crime statistics chart is a visual representation of data related to criminal activity in a particular region or period of time. The chart typically displays various types of crimes, such as theft, burglary, assault, and homicide, along with the number of reported incidents for each type.</p>
+      <img src="images/graph.png">
+
+
+    </div>
+
+
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<!--
+<head>
+	<meta charset="utf-8">
+	<title>Map</title>
+
+	<style media="screen"></style>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+  -->
+  
+  <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/38adfec0e4.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+  <div class="container">
+  	<div class="centerMap">
+    <center>
+    
+      <form>
+    <label for="question1"><h1 style="color:white;"> Current Location:</h1></label>
+    <select id="question1" name="question1">
+      <option value="">--Search Location--</option>
+      <option value="answer1">Ted Rogers School of Management</option>
+      <option value="answer2">Answer 2</option>
+      <option value="answer3">Answer 3</option>
+    </select>
+
+    <br><br>
+
+    <label for="question2"><h1 style="color:white;"> Final Destination:</h1></label>
+    <select id="question2" name="question2">
+      <option value="">--Search Location--</option>
+      <option value="answer1">George Vari Engineering and Computing Centre</option>
+      <option value="answer2">Answer 2</option>
+      <option value="answer3">Answer 3</option>
+    </select>
+
+    <br><br>
+
+    <!-- Add more questions and answer choices as needed -->
+
+  
+    <button onclick="toggle(this);" class="centerButton">Get Results</button>
+      
+
+        
+        
+  </form>
+      </center>
+  
+	<center>
+     <h1 style="color:white;"> 
+			Here is the safest route to your destination:
+		</h1> 
+		
+	
+     
+			<!-- Google Map Copied Code -->
+<iframe id="toShow" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2886.5798869531977!2d-79.38216158465809!3d43.6569082791212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x882b34cb08c0ab6d%3A0xddc4fb55422aed90!2sTed%20Rogers%20School%20of%20Management%2C%2055%20Dundas%20St%20W%2C%20Toronto%2C%20ON%20M5G%202C3!3m2!1d43.6556761!2d-79.3828745!4m5!1s0x89d4cb359d1515e7%3A0xfec6b680ae45e7b0!2sGeorge%20Vari%20Engineering%20and%20Computing%20Centre%2C%20ENG%2C%20245%20Church%20St%2C%20Toronto%2C%20ON%20M5B%201Z4!3m2!1d43.657707699999996!2d-79.37744479999999!5e0!3m2!1sen!2sca!4v1676748921230!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+
+
+		</div>
+	</center>
+    
+  </div>
+
+
+</body>
+  <!--
+ <script>
+  let toggle = button => {
+    let element = document.getElementById("toShow");
+    let hidden = element.getAttribute("hidden");
+    
+    if(hidden)
+    element.removeAttribute("hidden");
+    }
+  }
+</script>
+  -->
+  
+</html>
